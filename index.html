@@ -3,67 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Streetwear Store</title>
+    <title>ELITE DRIIP | Streetwear</title>
     <style>
         body {
             background-color: #0d0d0d;
             color: #ffffff;
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
+            padding: 15px;
             text-align: center;
         }
         .header {
             padding: 20px 0;
-            font-size: 24px;
+            font-size: 26px;
             font-weight: bold;
-            letter-spacing: 2px;
-            border-bottom: 1px solid #333;
+            letter-spacing: 3px;
+            border-bottom: 2px solid #222;
+            margin-bottom: 25px;
+        }
+        .products-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
         }
         .product-card {
             background-color: #1a1a1a;
             border-radius: 12px;
-            padding: 20px;
-            margin: 20px auto;
-            max-width: 350px;
+            padding: 15px;
+            width: 100%;
+            max-width: 320px;
             border: 1px solid #333;
+            box-sizing: border-box;
         }
         .product-card img {
             width: 100%;
+            height: 300px;
+            object-fit: cover;
             border-radius: 8px;
         }
         .product-title {
             font-size: 18px;
-            margin: 15px 0 5px;
+            margin: 12px 0 6px;
+            font-weight: bold;
         }
         .price {
             color: #2ecc71;
-            font-size: 16px;
+            font-size: 17px;
             font-weight: bold;
-            margin-bottom: 15px;
+            margin-bottom: 12px;
         }
         .btn-whatsapp {
-            display: inline-block;
+            display: block;
             background-color: #25d366;
             color: #fff;
-            padding: 12px 20px;
+            padding: 12px;
             border-radius: 6px;
             text-decoration: none;
             font-weight: bold;
+            font-size: 15px;
         }
     </style>
 </head>
 <body>
 
-    <div class="header">YOUR BRAND NAME</div>
+    <div class="header">ELITE DRIIP</div>
 
-    <div class="product-card">
-        <!-- بدل رابط الصورة برابط صورتك -->
-        <img src="https://via.placeholder.com/300" alt="Skull Cap">
-        <div class="product-title">Black Skull Cap</div>
-        <div class="price">150 DH</div>
-        <!-- بدل رقم الهاتف برقمك -->
-        <a href="https://wa.me/212600000000?text=Salam%20بغيت%20نطلب%20Black%20Skull%20Cap" class="btn-whatsapp">اطلب الآن عبر الواتساب</a>
+    <div class="products-container">
+
+        <!-- المنتج 1 -->
+        <div class="product-card">
+            <img src="https://via.placeholder.com/300x300?text=Product+1" alt="Skull Cap">
+            <div class="product-title">Black Skull Cap</div>
+            <div class="price">150 DH</div>
+            <a href="https://wa.me/212600000000?text=Salam%20بغيت%20نطلب%20Black%20Skull%20Cap" class="btn-whatsapp">اطلب الآن عبر الواتساب</a>
+        </div>
+
+        <!-- المنتج 2 -->
+        <div class="product-card">
+            <img src="https://via.placeholder.com/300x300?text=Product+2" alt="Giveaway Cap">
+            <div class="product-title">Giveaway 2 Skull Cap</div>
+            <div class="price">200 DH</div>
+            <a href="https://wa.me/212600000000?text=Salam%20بغيت%20نطلب%20Giveaway%202%20Skull%20Cap" class="btn-whatsapp">اطلب الآن عبر الواتساب</a>
+        </div>
+
+        <!-- المنتج 3 -->
+        <div class="product-card">
+            <img src="https://via.placeholder.com/300x300?text=Product+3" alt="Beanie">
+            <div class="product-title">White Logo Beanie</div>
+            <div class="price">180 DH</div>
+            <a href="https://wa.me/212600000000?text=Salam%20بغيت%20نطلب%20White%20Logo%20Beanie" class="btn-whatsapp">اطلب الآن عبر الواتساب</a>
+        </div>
+
+        <!-- المنتج 4 -->
+        <div class="product-card">
+            <img src="https://via.placeholder.com/300x300?text=Product+4" alt="Streetwear Item 4">
+            <div class="product-title">Oversized Drip Cap</div>
+            <div class="price">160 DH</div>
+            <a href="https://wa.me/212600000000?text=Salam%20بغيت%20نطلب%20Oversized%20Drip%20Cap" class="btn-whatsapp">اطلب الآن عبر الواتساب</a>
+        </div>
+
+        <!-- المنتج 5 -->
+        <div class="product-card">
+            <img src="https://via.placeholder.com/300x300?text=Product+5" alt="Streetwear Item 5">
+            <div class="product-title">Custom Edition Beanie</div>
+            <div class="price">190 DH</div>
+            <a href="https://wa.me/212600000000?text=Salam%20بغيت%20نطلب%20Custom%20Edition%20Beanie" class="btn-whatsapp">اطلب الآن عبر الواتساب</a>
+        </div>
+
     </div>
 
 </body>
